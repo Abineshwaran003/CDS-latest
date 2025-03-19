@@ -20,7 +20,7 @@ interface StepperProps {
   disableButtons?: boolean; 
 }
 
-const CustomStepper: React.FC<StepperProps> = ({
+const Stepper: React.FC<StepperProps> = ({
   steps,
   activeStep = 0,
   onStepChange,
@@ -220,7 +220,7 @@ const CustomStepper: React.FC<StepperProps> = ({
   );
 };
 
-export default CustomStepper;
+export default Stepper;
 
 const useStyles = makeStyles({
   stepperContainer: {
