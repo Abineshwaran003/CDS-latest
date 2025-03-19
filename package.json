@@ -33,7 +33,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@fluentui/react": "^8.122.12",
     "@fluentui/react-components": "^9.60.0",
+    "@fluentui/react-icons": "^2.0.292",
+    "i": "^0.3.7",
+    "npm": "^11.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.54.2"
@@ -49,7 +53,7 @@
     "@storybook/react": "^8.4.5",
     "@storybook/react-vite": "^8.4.5",
     "@storybook/test": "^8.4.5",
-    "@svgr/rollup": "^8.0.1",   
+    "@svgr/rollup": "^8.0.1",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
